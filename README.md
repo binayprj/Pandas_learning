@@ -21,3 +21,9 @@ Analyzing short-term rental market data across NYC to provide business insights 
 
 * **Key Skills:** Data merging (`.csv`, `.xlsx`, `.tsv`), string cleaning, datetime parsing, and constructing summary DataFrames in Pandas.
 * **Key Insight:** Extracted date ranges of reviews, total private room counts, and average listing prices across merged datasets.
+
+## Project 5: Car Insurance Claim Risk & Feature Selection Analysis
+Analyzing customer demographic and driving history data to identify the single best predictor of insurance claims for a lightweight production machine learning pipeline.
+
+* **Key Insight:** Data imputation (.fillna()), single-feature modeling, Logistic Regression (statsmodels.logit), confusion matrix evaluation (.pred_table()), and Pandas summary DataFrame construction.
+* **Key Insight:** Evaluated individual models across all features and identified driving_experience as the top predictor of policy claims, achieving a peak accuracy score of 77.71%.
